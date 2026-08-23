@@ -1,0 +1,14 @@
+{
+  "name": "personal-platform",
+  "private": true,
+  "packageManager": "pnpm@10.15.1",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check:tokens": "pnpm --filter @personal-platform/design-tokens run check",
+    "build:tokens": "pnpm --filter @personal-platform/design-tokens run build"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}

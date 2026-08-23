@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Pomodoro",
+    "slug": "pomodoro-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "pomodoro",
+    "platforms": ["ios", "android"],
+    "newArchEnabled": true
+  }
+}

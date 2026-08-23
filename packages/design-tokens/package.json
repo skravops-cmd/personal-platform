@@ -1,0 +1,19 @@
+{
+  "name": "@personal-platform/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./index.css": "./src/index.css",
+    "./tokens.css": "./src/tokens.css",
+    "./reset.css": "./src/reset.css",
+    "./tokens": "./src/tokens.ts"
+  },
+  "scripts": {
+    "build": "node scripts/build-css.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}
